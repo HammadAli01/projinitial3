@@ -1,0 +1,2 @@
+react-flow__node react-flow__node-default seleted selectable
+z-index: 10,transfrom: 

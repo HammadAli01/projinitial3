@@ -1,0 +1,108 @@
+.accordion-button:focus{
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  .accordion-button {
+    background: blue;
+    border: none;
+    outline: none;
+    margin-left: 25%;
+    font-weight: bold;
+  }
+  .accordion-button:not(.collapsed) {
+    
+    outline: none;
+   background-color: transparent;
+   border: none;
+    
+}
+.accordion-button.collapsed{
+    outline: none;
+   background-color: transparent;
+   border: none;
+}
+.newquestioninputfield{
+  width: 100%;
+}
+.newquestiondeightage{
+  display: inline-block;
+  margin-left: 5%;
+}
+.btn-box{
+  display: inline-block;
+  margin-left: 15%;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+.optionremoveButton,.optionaddbutton{
+
+box-shadow: 0px 4px 12px 0px rgb(0 0 0 / 15%);
+background-color: #007bff;
+border: 0px solid  #007bff;
+border-radius: 50%;
+color: #fff;
+font-weight: bold;
+padding: 8px 8px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.optionremoveButton:hover,.optionaddbutton:hover{
+  outline: none;
+  background-color: #00c7e6;
+}
+
+
+.question-weight-btn {
+  display: flex !important;
+margin-bottom: 10px; 
+}
+ 
+ 
+ .question-weight-btn label{
+  margin-top: -1px;
+  margin-left: 10px;
+ }
+ .weight-dp{
+   display: inline-flex;
+   margin-left: 5%;
+ }
+ .questionType .weight-dp .dropdown{
+  
+   width: max-content;
+   margin-top: 5px !important;
+ }
+ .questionType .weight-dp  .dropdown-menu{
+  min-width: 7rem !important;
+  max-width: 7rem !important;
+ }
+ .questionType .weight-dp  .btn-primary{
+  min-width: 110px !important;
+  background-color: rgb(0 123 255 / 85%) !important;
+  border: rgb(0 123 255 / 85%);
+ }
+ .questionType{
+   display: inline-flex;
+margin-top: 10px;
+margin-bottom: 10px;
+ }
+ .questionType .dropdown{
+   
+  margin-top: 5px;
+  margin-left: 10px;
+ 
+}
+.questionType .dropdown-menu{
+ min-width: 12.5rem !important;
+ max-width: 12.5rem !important;
+}
+.questionType .btn-primary{
+  background-color: rgb(0 123 255 / 85%) !important;
+  border: rgb(0 123 255 / 85%);
+ min-width: 200px !important;
+}
+.modalclass label{
+  font-weight: 500;
+}

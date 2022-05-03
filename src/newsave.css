@@ -1,0 +1,215 @@
+.upperAdddiv{
+    width: 95%;
+    height: 100%;
+     background-color: transparent; 
+  
+   padding:0%;
+}
+
+.addquestionDiv{
+    padding: none;
+    
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(rgb(130, 171, 233), rgb(144, 138, 204));
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+.dividerline{
+  border-top: 1.5px solid #0124ec !important;
+  opacity: 0.4;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.banktitle{
+  font-size: 2.1rem;
+  position: relative;
+  padding-left: 9%;
+  padding-right: 7%;
+  padding-top: 23px;
+  padding-bottom: 6px;
+  color: rgb(41, 54, 59);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.addQuestionModalBody{
+  height: 100%;
+    width: 100%;
+  overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+.addquestionDiv::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .addquestionDiv::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .addquestionDiv::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(24, 106, 230), rgb(83, 72, 204)); 
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  .addquestionDiv::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgb(6, 95, 228), rgb(130, 124, 204));  
+  }
+  /*styling category tag*/
+  .accordion-button {
+    background: transparent;
+    border: none;
+  }
+  .accordion{
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+    background: transparent; 
+   
+  }
+  .accordionItem{
+    border: none;
+    background: transparent; 
+    border: none;
+   
+  }
+
+.accordion-button:focus{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+  .buttonHover{
+    background: transparent; 
+    border: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-style: oblique;
+  }
+  .buttonHover::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(8, 8, 8);
+    transition: width .5s;
+}
+
+.buttonHover:hover::after {
+    width: 100%;
+}
+
+
+/*input field hover*/
+.searchfield{
+  height: 60%;
+  width: 80%;
+  padding: 10px;
+  background-color: rgb(240, 232, 232);;
+  
+  outline: none;
+  text-indent: 33px;
+    border-radius: 10px;
+    box-shadow:none;
+    border:none;
+}
+.searchfield:focus {
+  
+border-bottom:1px solid rgb(3, 3, 3);
+border-top: none;
+border-left: none;
+border-right: none;
+}
+.searchIcon{
+  background-color: transparent;
+  color: rgb(2, 2, 2);
+  position: absolute;
+    top: 13px;
+    left: 10px;
+   
+}
+.searchContainer{
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  position:relative;
+  left:15px;
+}
+/*Add button hover effect*/
+.addbutton{
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 8px;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  background-color: #09090a;
+  color: aliceblue;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.addbutton:hover {
+  border: 1px solid;
+  background-color: #2f2f35;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #8397a0; 
+}
+/*question tag round*/
+.questions{
+  text-align: center;
+  padding: 10px;
+}
+.userquestionheader{
+  color: rgb(3, 3, 3);
+  margin:0px !important;
+}
+.questionstyle{
+  text-align: left;
+  border: none;
+  outline: none;
+  color: aliceblue;
+ border-bottom: 1px solid rgb(59, 54, 54);
+ font-weight: 300;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-height: 30px;
+  text-overflow: -o-ellipsis-lastline;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition:color 1s;
+}
+/*question boundary hover effect*/
+.questionstyle:hover {
+  border-bottom: 1.5px solid #000000;
+  
+}
+.customNodeStyle{
+  color: aqua;
+}
+/*question type div */
+.questionType{
+  width: 100%;
+  display: flex;
+  
+}
+.questionTypeLabel{width:50%}
+.questionDropdown{
+  width:60%;
+  background-color: transparent;
+  background: transparent;
+}

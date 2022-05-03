@@ -1,0 +1,18 @@
+.wrapper{
+    justify-content: left;
+   
+}
+.interviewlist{
+position: absolute;
+width: 25%;
+height: 91.5%;
+background-color: rgb(241, 241, 241);
+}
+.interviewdescription{
+   
+    float: right;
+    width: 75%;
+    height: 91.5%;
+   
+    background-color: transparent;
+    }

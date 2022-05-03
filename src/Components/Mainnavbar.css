@@ -1,0 +1,60 @@
+.navbar {
+    height: 56px;
+    padding-left: 10px;
+    background-image: linear-gradient(rgb(74, 130, 214), rgb(86, 128, 206));
+   
+    box-shadow: 0 3px 4px 0 rgb(0 0 0 / 20%), 0 3px 3px -2px rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+.container{
+    margin-left: 5px;
+}
+.sidebarIcon{
+    color: white !important;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    stroke-width: 0px;
+    width: 2em;
+    padding-bottom: 3px;
+
+}
+.navbar-brand{
+    position: absolute;
+    margin-left: 10%;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.9rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white !important;
+}
+.navbar-nav{
+    position: absolute;
+    margin-left: 63%;
+   
+    
+   
+}
+.nav-link{
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 5px 15px !important;
+    text-transform: uppercase;
+    color: white !important;
+}
+.userImg{
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}

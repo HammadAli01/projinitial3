@@ -1,0 +1,441 @@
+.add-parentcontainer{
+    padding-top: 56px;
+     height: 100%;
+     width: 100%;
+  }
+  .add-sortcontainer{
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color:transparent;
+  }
+  
+  .add-tablecontainer{
+      overflow-y: hidden;
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    
+      }
+      .add-tabletitle{
+        margin-top: 3%;
+          color:black;
+  
+      }
+      .add-table{
+          margin-top: 20px;
+          padding: none;
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0 0 40px 0 rgb(0 0 0 / 10%);
+        overflow:hidden;
+        
+       
+       
+      }
+      .add-interviews{
+          
+          text-align: center;
+          font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          height:70%;
+          
+          
+      }
+      .add-interviews td,  .add-interviews th {
+          border: 1px solid #eeeeee;
+          padding: 8px;
+          
+        }
+        .questionrow{
+            cursor: pointer;
+        }
+        .add-table{
+        }
+        .add-interviews td{
+            text-align: center;
+     padding-left: 25px;
+        }
+        .optionweighthead{
+
+        }
+        .add-interviews tbody {
+          background-color: aliceblue;
+        }
+        .add-interviews .option{
+          
+          text-align: center !important;
+     padding-left: 25px !important;
+          }
+          .add-interviews .optionhead{
+             background-color: transparent!important; 
+            text-align: center !important;
+            padding-left: 25px !important;
+          }
+          .add-interviews .optionweighthead{
+           background-color: transparent !important; 
+            text-align: center !important;
+            padding-left: 25px !important;
+          }
+          .add-interviews #options{
+            background-color: rgb(241, 255, 255) !important;
+            border-top: 2px solid lightgrey !important;
+            border-bottom: 2px solid lightgrey !important;
+          }
+         
+        .add-interviews tr:nth-child(even){background-color: rgba(0,0,0,.03);}
+        
+        .add-interviews tr:hover {background-color: rgb(221, 235, 247);}
+        
+        .add-interviews th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: center;
+          background-color: rgba(221, 234, 255, 0.897);
+          color: rgb(0, 0, 0);
+          border-top: 1px solid rgba(221, 234, 255, 0.897);
+        }
+        .addquestion-form button{
+display: block;
+        }
+        .addquestion-form h2{
+        color: black;
+    margin-bottom: 15px;
+    }
+        .addquestion-form .input-group{
+width: 70%;
+margin-bottom: 1%;
+display: inline-flex;
+        }
+        .addquestion-form .input-group-text{
+            border-radius: 5px 0px 0px 5px;
+            border: 2px solid darkgray;
+            border-right: 0px;
+        }
+        .optionsarea .input-group-text{
+          border-radius: 5px 0px 0px 5px;
+          border: 2px solid lightgray;
+          border-right: 0px;
+        }
+        .optionsarea .openended-input{
+          border-radius: 0px 5px 5px 0px;
+          min-height: 80px;
+          max-height: max-content;
+         
+          border: 2px solid lightgray;
+          padding: 15px;
+          font-size: 18px;
+        }
+        .optionsarea .openended-input:focus, .optionsarea .openended-input:active
+        {        border: 2px solid black !important;
+        box-shadow: 0 0 40px 0 rgb(0 0 0 / 4%);
+outline: none;
+}
+        .addquestion-form .addquestion-text{
+            border-radius: 0px 5px 5px 0px;
+            min-height: 110px;
+            max-height: max-content;
+           
+            border: 2px solid darkgray;
+            padding: 15px;
+            font-size: 18px;
+
+        }
+        .addquestion-form .addquestion-text:focus,.addquestion-form .addquestion-text:active{ 
+            border: 2px solid black !important;
+            box-shadow: 0 0 40px 0 rgb(0 0 0 / 4%);
+    outline: none;}
+        .addquestion-label{
+            margin: 10px;
+margin-bottom: 50%;
+        }
+        
+        .addquestion-form .dropdown-menu.show{
+            width: inherit;
+            
+
+        }
+        .question-dropdowns{
+           position: relative;
+    float: right;
+    margin-right: 1%;
+        }
+        .question-dropdowns .btn-primary{
+            border-radius: 10px;
+            margin-bottom: 3%;
+            width: 250px !important;
+            min-width:  250px !important;
+            height: 50px !important;
+            min-height: min-content;
+            background-color: rgba(206, 225, 255, 0.897);
+            color: black;
+            font-weight:500 ;
+            border: transparent;
+        }
+        .question-dropdowns .btn-primary:active{
+            background-color: rgba(164, 199, 255, 0.897) !important;
+            outline: none;
+            border: transparent;
+        }
+        .question-dropdowns .btn-primary:focus {
+            background-color: rgba(112, 166, 253, 0.897) !important;
+            box-shadow: 0 0 0 0.2rem rgb(226, 240, 255) !important;
+            outline: none;
+        }
+        .question-dropdowns .dropdown-menu.show{
+            width: 100% !important;
+            text-align: left;
+            padding-left: 15px;
+        }.optionsarea .dropdown-menu.show{
+          width: 90% !important;
+      }
+        
+        .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  background-color: #ccc;
+  border: transparent;
+  -webkit-transition: .4s;
+  transition: .4s;
+  height:25px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 7px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.add-question-type{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.optionsarea ul{
+  list-style:decimal !important;
+  font-weight: bold;
+}
+.add-question-type h5{
+    margin-right: 7%;
+    margin-left: 7%;
+    display: inline-flex;
+    position: relative;
+    padding-top: 10px;
+}
+.anaddoption{
+  margin-top: 5px;
+margin-bottom: 5px;
+display: inline-flex;
+width: 100% !important;
+
+}
+
+.optionsarea h3{
+  color: black;
+  margin-bottom: -10px;
+}
+
+.Addquestioninputfield{
+  margin-left: 10px;
+  
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  width: 70%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
+.Addquestioninputfield:active,.Addquestioninputfield:focus{
+  border: 1px solid black;
+}
+.add-btn-box{
+  display: inline-flex;
+  
+  width: 100px;
+  float: right;
+  margin-right: 5px;
+  padding-top: 5px;
+  position: relative;
+    margin-left: 10%;
+  }
+  .add-optionremoveButton,.add-optionaddbutton{
+  
+  box-shadow: 0px 4px 12px 0px rgb(0 0 0 / 15%);
+  background-color: rgba(112, 166, 253, 0.897) !important;
+  border: 0px solid  rgba(112, 166, 253, 0.897);
+  border-radius: 5%;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 8px;
+  cursor: pointer;
+  margin-right: 2px;
+  width: 40px;
+  height: 40px;
+  
+  }
+  
+  .add-optionremoveButton:hover,.add-optionaddbutton:hover{
+    background-color: rgba(47, 127, 255, 0.897) !important;
+    box-shadow: 0 0 0 0.2rem rgb(226, 240, 255) !important;
+    outline: none;
+  }
+  .anaddoption .btn-primary{
+    position: inherit;
+    margin-top: 5px;
+    margin-left: 40%;
+    width: 150px;
+    height: 40px;
+
+    background-color: rgba(188, 207, 238, 0.897);
+    color: black;
+    font-weight:500 ;
+    border: transparent;
+  }
+  .anaddoption .btn-primary:focus,.anaddoption .btn-primary:active{
+    background-color: #5468FF;
+  }
+  .question-add-button{
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 140px;
+    height: 60px;
+    margin-left: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    position: relative;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+ box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+  }
+  .question-add-button:hover{
+  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+ transform: translateY(-0.1em);}
+ .question-add-button:active,  .question-add-button:focus{
+   outline: none;
+ }
+ 
+  .addquestion-form .toast{
+   padding: 0.5rem 0.75rem;
+   position: fixed;
+   margin-top: -5% !important;
+   margin-left: 15% !important;
+ z-index: 10;
+ width: 400px;
+      height: max-content;
+      font-size: .875rem;
+pointer-events: auto;
+background-color: hsla(0, 5%, 88%, 0.85);
+background-clip: padding-box;
+border: 2px solid rgba(0,0,0,.1);
+box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+border-radius: 7px;
+animation: toastFadeIn 1s toastFadeOut 1s;
+-webkit-animation: toastFadeIn 1s toastFadeOut 1s;
+-moz-animation: toastFadeIn 1s toastFadeOut 1s;
+-o-animation: toastFadeIn 1s toastFadeOut 1s;
+-ms-animation: toastFadeIn 1s toastFadeOut 1s;
+  }
+
+  .addquestion-form .btn-close{
+display: none;
+} 
+.addquestion-form small{
+float: right;
+   font-size: .875em;
+}
+.addquestion-form  .toast-header{
+   
+padding: 0.5rem 0.75rem;
+color: #6c757d;
+background-color: rgba(238, 238, 238, 0.85);
+background-clip: padding-box;
+border-bottom: 1px solid rgba(0,0,0,.05);
+border-top-left-radius: calc(0.25rem - 1px);
+border-top-right-radius: calc(0.25rem - 1px);
+}
+.addquestion-form  .toast-body{
+text-align: center;
+padding: 0.75rem;
+word-wrap: break-word;}
+
+@keyframes toastFadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-moz-keyframes toastFadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-webkit-keyframes toastFadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-o-keyframes toastFadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+@-webkit-keyframes toastFadeOut {
+ 0% {opacity: 1;}
+ 100% {opacity: 0;}
+}
+
+@keyframes toastFadeOut {
+ 0% {opacity: 1;}
+ 100% {opacity: 0;}
+}

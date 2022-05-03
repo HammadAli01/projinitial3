@@ -1,0 +1,469 @@
+{
+  "Categories": [
+    {
+      "id": "1",
+      "name": "Icebreakers"
+    },
+    {
+      "id": "2",
+      "name": "Experience"
+    },
+    {
+      "id": "3",
+      "name": "Environment"
+    },
+    {
+      "id": "4",
+      "name": "Icebreakers"
+    },
+    {
+      "id": "5",
+      "name": "Experience"
+    },
+    {
+      "id": "6",
+      "name": "Environment"
+    }
+  ],
+  "Questions": [
+    {
+      "id": "1",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "Where are you from",
+      "CategoryName": "Icebreakers",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "Islamabad",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "Rawalpindi",
+          "optionWeightage": "70"
+        },
+        {
+          "id": 103,
+          "optionText": "Taxila",
+          "optionWeightage": "80"
+        },
+        {
+          "id": 104,
+          "optionText": "Other",
+          "optionWeightage": "90"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "From which institution are you graduated",
+      "CategoryName": "Icebreakers",
+      "optionArray": []
+    },
+    {
+      "id": "2",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "Are you willing to relocate to Islamabad for this job",
+      "CategoryName": "Icebreakers",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "Yes",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "No",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "Do you have experience",
+      "CategoryName": "Experience",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "Yes",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "No",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "Do you think you are qualified enough for this position",
+      "CategoryName": "Experience",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "Yes",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "maybe",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "No",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "Dont Know",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "What is your availability for this job",
+      "CategoryName": "Environment",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "How many years of working do you have",
+      "CategoryName": "Experience",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "Which type of work environment do you like?",
+      "CategoryName": "Environment",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question_weight": "25",
+      "username": "admin",
+      "stem": "Do you know about this company environment",
+      "CategoryName": "Environment",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    }
+  ],
+  "UserQuestions": [
+    {
+      "id": "20",
+      "stem": "Do you live in islamabad",
+      "CategoryName": "Icebreakers",
+      "question_weight": "50",
+      "username": "hammad",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "Yes",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "No",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "stem": "How are you feeling",
+      "CategoryName": "Icebreakers",
+      "question_weight": "50",
+      "username": "hammad",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "Well",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "not well",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "need assistance",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "stem": "Do you have working expereince",
+      "CategoryName": "Experience",
+      "question_weight": "50",
+      "username": "hammad",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "stem": "How many years of working do you have",
+      "CategoryName": "Experience",
+      "question_weight": "50",
+      "username": "hammad",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "stem": "Which type of work environment do you like",
+      "CategoryName": "Environment",
+      "question_weight": "50",
+      "username": "hammad",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 104,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "stem": "Do you know about this company environment",
+      "CategoryName": "Environment",
+      "question_weight": "50",
+      "username": "hammad",
+      "optionArray": [
+        {
+          "id": 101,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 102,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        },
+        {
+          "id": 103,
+          "optionText": "option1",
+          "optionWeightage": "60"
+        }]
+      }
+  ],
+  "Flow": [
+    [
+      {
+        "edge_id": "reactflow__edge-0null-dndnode_0dndnode_0.top",
+        "source": "0",
+        "target": "1",
+        "selectedValue": "",
+        "userName": ""
+      },
+      {
+        "edge_id": "reactflow__edge-dndnode_0dndnode_0.bottom--1null",
+        "source": "1",
+        "target": "-1",
+        "selectedValue": "Islamabad",
+        "userName": "admin"
+      }
+    ],
+    [
+      {
+        "edge_id": "reactflow__edge-0null-dndnode_0dndnode_0.top",
+        "source": "0",
+        "target": 789,
+        "selectedValue": "",
+        "userName": ""
+      },
+      {
+        "edge_id": "reactflow__edge-dndnode_0dndnode_0.bottom--1null",
+        "source": 789,
+        "target": "-1",
+        "selectedValue": "Islamabad",
+        "userName": "Hammad"
+      }
+    ],
+    [
+      {
+        "edge_id": "reactflow__edge-dndnode_0dndnode_0.bottom--1null",
+        "source": 789,
+        "target": "-1",
+        "selectedValue": "Islamabad",
+        "userName": "admin"
+      },
+      {
+        "edge_id": "reactflow__edge-dndnode_1dndnode_1.bottom--1null",
+        "source": "2",
+        "target": "-1",
+        "selectedValue": "Yes",
+        "userName": "admin"
+      },
+      {
+        "edge_id": "reactflow__edge-0null-dndnode_0dndnode_0.top",
+        "source": "0",
+        "target": 789,
+        "selectedValue": "",
+        "userName": ""
+      },
+      {
+        "edge_id": "reactflow__edge-dndnode_0dndnode_0.bottom-dndnode_1dndnode_1.top",
+        "source": 789,
+        "target": "2",
+        "selectedValue": "Islamabad",
+        "userName": "Hammad"
+      }
+    ]
+  ]
+}
